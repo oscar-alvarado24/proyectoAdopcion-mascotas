@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pet
+  profiles:
+    include: local
+    active: local
+server:
+  servlet:
+    context-path: /api
+  port: 8060
+pet-type:
+  service:
+    url: ${PET-TYPE_URL}
