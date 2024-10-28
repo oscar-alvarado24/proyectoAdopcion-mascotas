@@ -8,7 +8,7 @@ public final class Constants {
     public static final String MSG_SAVE_SUCCESSFULLY = "Mascota con el nombre %s guardado exitosamente con el id %s";
     public static final String MSG_UPDATE_SUCCESSFULLY = "Se actualizó con exitó la mascota dcon id %s";
     public static final String MSG_UPDATE_ERROR = "Error al actualizar la mascota de id %s";
-    public static final String MSG_PET_NOT_FOUND = "La mascota de id %S no existe" ;
+    public static final String MSG_PET_NOT_FOUND = "La mascota de id %S no existe";
     public static final String MSG_PET_NOT_GET = "No se pudo obtener la mascota con id %s";
     public static final String MSG_PET_NOT_DELETE = "No se pudo eliminar la mascota de id %s";
     public static final String MSG_PET_DELETE = "Se eliminó la mascota con id %s";
@@ -18,8 +18,6 @@ public final class Constants {
     public static final String MSG_PETS_AVAILABILITY_NOT_GET = "No se pudieron obtener las mascotas disponibles, intenta mas tarde";
     public static final String ENTITY_PACKAGE = "com.project.adoption.pet.domain.entities";
     public static final String REPOSITORY_PACKAGE = "com.project.adoption.pet.infrastructure.persistence";
-    public static final String KEY_NAME_EXCEPTION = "ExceptionType";
     public static final String INTERNAL_ERROR_IN_PET_TYPE = "Error interno en el servicio de pet-type, intenta mas tarde";
-    public static final String MESSAGE = "Message";
     public static final String MSG_PETS_NOT_GET = "Nose pudo obtener las mascotas correspondientes a los id";
 }
